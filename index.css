@@ -1,0 +1,150 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* CSS RESET */
+/*
+    1. Use a more-intuitive box-sizing model.
+  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+  margin: 0;
+}
+
+/*
+      3. Allow percentage-based heights in the application
+    */
+html {
+  height: auto;
+}
+
+.portfolio-body {
+  background: linear-gradient(45deg, rgb(193, 224, 232), rgb(246, 135, 161));
+  padding: 24px;
+}
+
+.portfolio-content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.logo {
+  display: flex;
+  gap: 4px;
+}
+
+.logo img {
+  display: block;
+  height: 20px;
+}
+
+.text-logo {
+  font-size: 16px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 16px;
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:hover {
+  color: rgb(193, 224, 232);
+}
+
+.menu .view-work-button {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.introduction {
+  margin-top: 48px;
+  padding: 64px;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  justify-content: center;
+  gap: 32px;
+}
+
+.introduction-content {
+  width: 60%;
+  padding-right: 64px;
+  line-height: 2;
+}
+.introduction-title {
+  font-size: 48px;
+}
+
+.image-container {
+  background: rgb(246, 135, 161);
+  background: linear-gradient(
+    0deg,
+    rgba(246, 135, 161, 1) 0%,
+    rgba(193, 224, 232, 1) 55%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  height: 100%;
+}
+
+.career {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 32px;
+}
+.career-content {
+  /* width: 500px; */
+  width: 40%;
+  padding: 48px;
+}
+.career-content-details {
+  margin-top: 8px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 24px;
+}
+
+.skills span {
+  padding: 4px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
